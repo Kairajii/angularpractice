@@ -1,0 +1,38 @@
+.homepage{
+    display: flex;
+    flex-direction: row;
+    min-height: 550px;
+    width: 100%;
+    justify-content: space-between;
+}
+.sidebar{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 25%;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    
+    flex-basis: 70%;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    min-height: 250px;
+    margin-bottom: 5px;
+}
+.main_content{
+    display: flex;
+    flex-direction: row;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+}
